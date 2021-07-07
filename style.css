@@ -4,7 +4,7 @@
 
 #navbar {
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
   background: rgb(165, 154, 152);
   padding: 20px;
@@ -12,8 +12,6 @@
 
 #welcome-section {
   height: 100vh;
-  /* padding: 100px 0px 50px 50px; */
-  /* padding-top: 45vh; */
   background-color: lightblue;
   text-align: center;
 }
@@ -24,9 +22,7 @@
 }
 
 #welcome-section p {
-  padding: 0px 30px;
-}
-#welcome-section p {
+  padding: 0 30px;
   text-align: left;
 }
 
@@ -37,10 +33,6 @@
   font-size: 10px;
 }
 
-#navbar a:hover {
-  color: lightgrey;
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -49,6 +41,10 @@ a {
 #navbar a {
   float: right;
   padding-right: 30px;
+}
+
+#navbar a:hover {
+  color: lightgrey;
 }
 
 @media (min-width: 700px) {
